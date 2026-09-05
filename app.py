@@ -13,7 +13,7 @@ from groq import Groq
 # =========================================================
 
 DB_PATH = "hospital_complaints.db"
-GROQ_MODEL = "llama-3.3-70b-versatile"
+GROQ_MODEL = "openai/gpt-oss-120b"
 
 st.set_page_config(
     page_title="AI Hospital Complaint Agent",
